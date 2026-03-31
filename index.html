@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title"
+      content="Convite Guilherme e Luis" />
+    <meta property="og:description"
+      content="Você é nosso convidado especial! Confira o convite no link abaixo." />
+    
+      <meta property="og:image"
+      content="alcidesfh.github.io/convite_luis/preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url"
+      content="https://alcidesfh.github.io/convite_luis/" />
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Convite Guilherme e Luis</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <img class="imagem-fundo" src="Imagem6.jpg" alt="Convite de Casamento">
+      <h2><span class="titulo">Confirme sua presença!</span></h2>
+      <form id="formConfirmacao">
+        <input type="text" id="nome" placeholder="Seu nome completo" required>
+        <input type="tel" id="telefone"
+          placeholder="DDD + número (somente números)" required>
+        <button id="btnMostrarForm" class="btn-revelar">Confirmar
+          Presença</button>
+        <button id="btnMostrarlocalizacao" class="btn-revelar" type="button">
+          <i class="fa-solid fa-map-location-dot fa-2x "></i>
+          <span class="btn-texto">Localização</span>
+        </button>
+        <script>
+            document.getElementById("btnMostrarlocalizacao").addEventListener("click", function () {
+            window.open("waze://?ll=-23.53843000,-46.90968800&navigate=yes", "_blank");
+           });
+      </script>
+      </form>
+      <p id="mensagemConfirmacao" class="confirmado"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+.container {
+  width: auto;
+  max-width: 500px;
+  margin: 5px 5px 5px 5px;
+  padding: 1px;
+  text-align: center;
+  background-color: #8b5e3c;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-fundo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 90%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #532309;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a97456;
+}
+
+.confirmado {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.titulo {
+  color: #ffffff;
+}
+
+.btn-revelar {
+  padding: 12px 24px;
+  background-color: #8b5e3c;
+  color: white;
+  /* border: none;*/
+  border: 1px solid #f1efec;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-revelar:hover {
+  background-color: #64422e;
+}
+.titulo-com-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-casamento {
+  width: 40px;
+  height: auto;
+}
+.btn-revelar i {
+  margin-right: 6px;
+  font-size: 1.2em; /* tamanho ajustado */
+  vertical-align: middle;
+  
+}
+.btn-revelar {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  margin: 2px;
+}
